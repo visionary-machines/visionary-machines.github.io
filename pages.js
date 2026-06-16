@@ -12,7 +12,7 @@
     <div class="pg-hd">
       <div class="pg-hd-bg" style="background-image:linear-gradient(rgba(26,23,20,0.85),rgba(26,23,20,0.85)),url('${I.frankenstein_front}')"></div>
       <p class="pg-hd-lbl">HKU School of English</p>
-      <h1>Open Call<br>for <span class="acc">Submission</span></h1>
+      <h1>Open Call<br>for <span class="acc">Submissions</span></h1>
       <p class="pg-hd-sub">Visionary Machines: Romanticism &amp; Art/Tech Exhibition</p>
     </div>
 
@@ -23,16 +23,18 @@
       <div class="dates-row">
         <div class="d-cell"><span class="d-lbl">Workshop</span><span class="d-val">18 Jul 2026</span></div>
         <div class="d-cell"><span class="d-lbl">Reg. Deadline</span><span class="d-val">11 Jul 2026</span></div>
-        <div class="d-cell"><span class="d-lbl">Submission</span><span class="d-val">24 Jul 2026</span></div>
-        <div class="d-cell"><span class="d-lbl">Shortlist</span><span class="d-val">7 Aug 2026</span></div>
-        <div class="d-cell"><span class="d-lbl">Opening</span><span class="d-val">22 Aug 2026</span></div>
+        <div class="d-cell"><span class="d-lbl">Submission Deadline</span><span class="d-val">2 Aug 2026</span></div>
+        <div class="d-cell"><span class="d-lbl">Shortlist</span><span class="d-val">9 Aug 2026</span></div>
+        <div class="d-cell"><span class="d-lbl">Exhibition Opening</span><span class="d-val">27 Aug 2026</span></div>
       </div>
 
       <h2>Awards &amp; Recognition</h2>
       <div class="award-row">
-        <div class="award-box"><span class="a-amt">HK$1,000</span><span class="a-name">Student Award</span></div>
-        <div class="award-box"><span class="a-amt">HK$1,500</span><span class="a-name">Open Award</span></div>
+        <div class="award-box"><span class="a-amt">HK$1,500</span><span class="a-name">Top Student Award</span></div>
+        <div class="award-box"><span class="a-amt">HK$2,000</span><span class="a-name">Top Open Award</span></div>
+        <div class="award-box"><span class="a-amt">HK$1,500</span><span class="a-name">First Runner Up Open Award</span></div>
       </div>
+      <p>If a team wins, the prize will be delivered to the team representative to be shared among members.</p>
       <p>All selected exhibiting participants receive an official Certificate of Participation.</p>
 
       <h2>Accepted Mediums &amp; Formats</h2>
@@ -49,13 +51,7 @@
         <div class="m-tag">Live Performances (see guidelines)</div>
       </div>
 
-      <h2>Assessment Criteria</h2>
-      <div class="crit-grid">
-        <div class="crit"><span class="pct">30%</span><span class="cn">Theoretical Depth</span><p class="cd">How well does the piece reflect the primary texts and Art vs. Machine concepts?</p></div>
-        <div class="crit"><span class="pct">30%</span><span class="cn">Aesthetic Innovation</span><p class="cd">Did the work create a new visual language, or just a “pretty” AI image?</p></div>
-        <div class="crit"><span class="pct">20%</span><span class="cn">Technical Execution</span><p class="cd">Skillful use of AI tools (avoiding hallucinations unless deliberate).</p></div>
-        <div class="crit"><span class="pct">20%</span><span class="cn">The Sublime Factor</span><p class="cd">Does the piece evoke the emotional awe and terror central to Romanticism?</p></div>
-      </div>
+      
       <p class="sub-note">All submissions must include a team member list (name and affiliation), a title, and a statement of intent (~300 words).</p>
 
       <h2>Frequently Asked Questions</h2>
@@ -67,12 +63,12 @@
         <details><summary>What should my statement of intent include?</summary><p>Your submission must include: (1) a team member list with names and affiliations, (2) a title, and (3) a statement of intent of approximately 300 words explaining your conceptual approach and its relation to the exhibition themes.</p></details>
         <details><summary>Can I mix digital and non-digital media?</summary><p>Absolutely — we actively encourage this. Hybrid analog-digital works are considered especially interesting by the panel.</p></details>
         <details><summary>What AI tools can I use?</summary><p>Any tools appropriate to your work. Suggested: Midjourney, Stable Diffusion, DALL-E 3 (image); Runway Gen-2, Pika, Sora (video); Udio or Suno (music); ElevenLabs (voice). The Source Kit provides primary texts and archival images as a starting point.</p></details>
-        <details><summary>Where will the exhibition be held?</summary><p>Selected works exhibited at The University of Hong Kong, 22–31 August 2026. Opening ceremony: Saturday, 22 August. Plans to partner with UMAG and the HKU Main Library for projection display of winning entries.</p></details>
-        <details><summary>What is the Source Kit?</summary><p>A curated data pack including: primary text extracts from Romantic-era literature; links to public-domain visual archives; a theory/criticism crib-sheet covering the keyword card concepts; audio inspiration; and examples of existing art/tech projects.</p></details>
+        <details><summary>Where will the exhibition be held?</summary><p>Selected works exhibited at The University of Hong Kong, 27–30 August 2026. Opening ceremony: Saturday, 27 August.</p></details>
+        <details><summary>What is the Source Kit?</summary><p>A curated data pack including: primary text extracts from Romantic-era literature; links to public-domain visual archives; a theory/criticism crib-sheet covering the keyword card concepts.</p></details>
       </div>
 
       <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(26,23,20,.12)">
-        <p style="color:var(--paper-mid);font-size:.88rem;margin-bottom:1.25rem">For inquiries: <a href="mailto:visionarymachines@hku.hk" style="color:var(--ink);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor">visionarymachines@hku.hk</a></p>
+        <p style="color:var(--paper-mid);font-size:.88rem;margin-bottom:1.25rem">For inquiries: <a href="mailto:visionarymachines@hku.hk" style="color:var(--ink);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor">visma@hku.hk</a></p>
         <button class="btn btn-paper" onclick="openSubmitForm()">Submit Your Work →</button>
       </div>
     </div>
@@ -96,26 +92,23 @@
 
     <div class="ws-body">
       <h2>About the Workshop</h2>
-      <p>Are you fascinated by the intersection of poetry and programming, or the clash between nature and algorithms? Join us for the <em>Visionary Machines</em> Art/Tech Workshop — an interdisciplinary bootcamp exploring the deep connections between Romanticism and our contemporary anxieties around artificial intelligence. No prior coding or professional art experience required. Maximum 50 attendees.</p>
-      <p>The workshop introduces AI tools, provides the Source Kit of 19th-century materials, and gives you 90 minutes to prototype a creative response to our key provocations.</p>
-
+    <p>In an age of generative AI, how can we use digital media to interrogate key aesthetic concepts such as originality, organicism, and the sublime? Following our call for submissions for the upcoming Visionary Machines exhibition in August, we are pleased to invite you to a hands-on, one-day workshop designed to bridge literary studies, digital humanities, and creative technology.</p>
+    <p>Whether you are interested in learning more about Romanticism, picking up new creative skills, or meeting like-minded collaborators, this workshop offers a supportive space to experiment and create. No programming or technical background required. 
+    </p>
       <h2>Schedule</h2>
       <table class="sched">
         <tr><td>10:30</td><td><strong>Registration &amp; Welcome</strong></td></tr>
-        <tr><td>11:00</td><td><strong>Background Lecture</strong> — Romanticism and the Machine<span class="note">Key concepts, historical frameworks, and the Source Kit</span></td></tr>
-        <tr><td>11:30</td><td><strong>Brainstorm Session</strong> — Responding to the provocations in teams</td></tr>
-        <tr><td>12:00</td><td><em>Break</em></td></tr>
-        <tr><td>12:10</td><td><strong>AI Tools Workshop</strong> — Text to image, image to video, sound<span class="note">Hands-on: Midjourney, Runway Gen-2, Udio, ElevenLabs</span></td></tr>
-        <tr><td>13:00</td><td><em>Lunch Break</em></td></tr>
-        <tr><td>14:00</td><td><strong>Creation Phase</strong> — Prototype your work (90 minutes)<span class="note">AI tools, Source Kit materials, and RA support available</span></td></tr>
+        <tr><td>11:00</td><td><strong>Introduction</strong> — Romanticism and the Machine (Prof. Tara Lee)<span class="note">Key concepts, historical frameworks, and the Source Kit</span></td></tr>
+        <tr><td>11:45</td><td><strong>Creative Prototyping with GenAI</strong></td></tr>
+        <tr><td>12:30</td><td><strong>Intro to Audio-Reactive Installations</strong></td></tr>
+        <tr><td>13:00</td><td><em>Light Lunch Provided</em></td></tr>
+        <tr><td>13:30</td><td><strong>Creation Phase</strong> — Prototype your work<span class="note">AI tools, Source Kit materials, and RA support available</span></td></tr>
         <tr><td>15:30</td><td><strong>Showcase &amp; Reflection</strong> — Share prototypes, group discussion</td></tr>
-        <tr><td>16:00</td><td><strong>Prizes &amp; Next Steps</strong> — Pathway to the August Exhibition</td></tr>
-        <tr><td>16:30</td><td><em>Close</em></td></tr>
       </table>
 
-      <h2>Prizes &amp; Path to Exhibition</h2>
-      <p>Small prizes for the best on-the-day prototypes. This workshop is also the launchpad for the <em>Visionary Machines</em> Exhibition (August 2026). All attendees are invited to refine their prototypes into finished works and submit them to the main exhibition.</p>
-      <p>Final exhibition selections are eligible for <strong>Student Award: HK$1,000 / Open Award: HK$1,500</strong> and an official Certificate of Participation.</p>
+      <h2>Path to Exhibition</h2>
+      <p>This workshop is the launchpad for the <em>Visionary Machines</em> Exhibition (August 2026). All attendees are invited to refine their prototypes into finished works and submit them to the main exhibition.</p>
+      <p>Final exhibition selections are eligible for <strong>Student Award: HK$1,500 / Open Award: HK$2,000</strong> and an official Certificate of Participation.</p>
 
       <h2>Eligibility &amp; How to Apply</h2>
       <p>Open to the HKU community and the wider public. No prior coding or art experience required. Registrants will receive a follow-up email with instructions on what to bring (e.g. laptop, tablet).</p>
