@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>Visionary Machines — HKU School of English</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Barlow+Condensed:wght@500;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-accent="green">
+
+<!-- NAV ============================================================= -->
+<nav class="nav">
+  <span class="nav-logo" onclick="go('home')">
+    <span class="nav-mark">VM</span>Visionary Machines
+  </span>
+  <div class="nav-links">
+    <button onclick="go('home')" id="nb-home" class="on">Home</button>
+    <button onclick="go('submit')" id="nb-submit">Call for Submission</button>
+    <button onclick="go('workshop')" id="nb-workshop">Workshop</button>
+    <button onclick="go('blog')" id="nb-blog">Blog</button>
+    <button onclick="go('gallery')" id="nb-gallery">Gallery</button>
+  </div>
+  <span class="nav-meta">HKU School of English · 2026</span>
+</nav>
+
+<!-- ============================================================== HOME -->
+<div id="pg-home" class="page on">
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-main">
+      <p class="hero-inst">HKU School of English &middot; Funded by HKRGC</p>
+      <h1 class="hero-title">Visionary<br>Machines<span class="hero-colon">:</span></h1>
+      <p class="hero-sub">Romanticism &amp; Art/Tech Exhibition</p>
+
+      <div class="prov-wrap">
+        <p class="prov-label"><span class="prov-bullet"></span>A Provocation</p>
+        <p class="prov-text" id="prov"></p>
+      </div>
+
+      <div class="hero-ctas">
+        <button class="btn btn-accent" onclick="openSubmitForm()">Submit Your Work →</button>
+        <button class="btn btn-ghost" onclick="go('workshop')">Join the Workshop</button>
+      </div>
+    </div>
+    <div class="hero-dates">
+      <div><span class="hd-lbl">Workshop</span><strong>18 Jul 2026</strong></div>
+      <div><span class="hd-lbl">Submission</span><strong>24 Jul 2026</strong></div>
+      <div><span class="hd-lbl">Exhibition</span><strong>22–31 Aug 2026</strong></div>
+    </div>
+  </div>
+  <figure class="hero-imgpanel" aria-hidden="true">
+    <img id="hero-img" alt="" referrerpolicy="no-referrer" loading="eager"
+         onerror="this.closest('figure').classList.add('img-err')">
+    <div class="hero-imgcap">William Blake &mdash; “The Ancient of Days”, c.1794</div>
+  </figure>
+</section>
+
+<!-- Marquee strip removed per request — redundant with the Visual Archive below -->
+
+<!-- Questions section -->
+<section class="qs-section">
+  <p class="eyebrow">About the Exhibition</p>
+  <h2 class="sec-h">Where Romanticism<br><em>meets the Machine.</em></h2>
+  <div class="ornament">≈ ¤ ≈</div>
+  <p class="about-p">
+    <em>Visionary Machines</em> is an interdisciplinary project exploring the connections between
+    Romanticism — a literary, artistic, and intellectual movement prioritising emotion, the
+    imagination, and Nature — and our contemporary moment. By showcasing the creative responses of
+    students and artists, we aim to foster a greater understanding of Romanticism’s relevance to
+    present-day concerns around technology and AI.
+  </p>
+
+  <p class="qs-lead">Hover any card to turn it over — each provocation is framed by a Romantic-era idea and its modern counterpart.</p>
+  <div class="concept-grid" id="q-grid"></div>
+</section>
+
+<!-- Source materials — three sub-sections -->
+<section class="kit-section">
+  <p class="eyebrow">Source Kit</p>
+  <h2 class="sec-h">19th-Century<br><em>Primary Materials</em></h2>
+  <div class="ornament">≈ ¤ ≈</div>
+  <p class="about-p">
+    Participants receive a curated Source Kit drawn from public-domain collections. It is organised in three parts.
+  </p>
+
+  <!-- A · Primary Texts -->
+  <div class="sub-section">
+    <div class="sub-head">
+      <span class="sub-num">A</span>
+      <h3 class="sub-h">Primary Texts</h3>
+      <p class="sub-dek">Nine Romantic-era voices on art, nature, and the machine. Hover a card to turn it over; click to read the primary text in full.</p>
+    </div>
+    <div class="author-grid" id="author-grid"></div>
+  </div>
+
+  <!-- B · Critical Theory -->
+  <div class="sub-section">
+    <div class="sub-head">
+      <span class="sub-num">B</span>
+      <h3 class="sub-h">Critical Theory</h3>
+      <p class="sub-dek">A crib-sheet of the keywords and critical frames that underpin the exhibition.</p>
+    </div>
+    <ul class="text-list" id="theory-list"></ul>
+  </div>
+
+  <!-- C · The Visual Archive -->
+  <div class="sub-section">
+    <div class="sub-head">
+      <span class="sub-num">C</span>
+      <h3 class="sub-h">The Visual Archive</h3>
+      <p class="sub-dek">Plates from the British Museum, the Met, Yale CBA, the Wellcome Collection, and the William Blake Archive.</p>
+    </div>
+    <div class="kit-grid themes-grid" id="themes-grid"></div>
+  </div>
+
+  <p class="kit-credit">All works in the public domain. Full Source Kit distributed to all registered participants.</p>
+</section>
+
+<!-- Three projects teaser & footer removed per spec — stick to source content -->
+
+</div><!-- /home -->
+
+<!-- ============================================================ SUBMIT -->
+<div id="pg-submit" class="page page-paper"></div>
+
+<!-- ========================================================== WORKSHOP -->
+<div id="pg-workshop" class="page"></div>
+
+<!-- ============================================================== BLOG -->
+<div id="pg-blog" class="page page-paper"></div>
+
+<!-- =========================================================== GALLERY -->
+<div id="pg-gallery" class="page page-dark"></div>
+
+<!-- =================================================== VISUAL ARCHIVE -->
+<div id="pg-archive" class="page page-dark"></div>
+
+<!-- Tweaks panel mount -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+
+<div id="tweaks-root"></div>
+
+<script>
+  // Submission portal (Microsoft Forms). Update this URL with the public
+  // "Collect responses" / share link if responses don't open for participants.
+  window.SUBMIT_URL = "https://forms.office.com/Pages/DesignPageV2.aspx?rpring=Business&rpsession=9841f094-485c-4a54-a804-07aade172732&subpage=design&token=de37bec1a1604405828ab09783520d00&id=dY4N6LlSOUijWIeruTs1Z3jYyccwUVZHtK9x9j4qPSFUNDE2WFQ3QU45SUQ2Nk9GMVVIVFFGU1ZUSy4u";
+  window.openSubmitForm = function(){ window.open(window.SUBMIT_URL, "_blank", "noopener,noreferrer"); };
+</script>
+<script src="data.js"></script>
+<script src="concept-cards.js"></script>
+<script src="author-cards.js"></script>
+<script src="archive-data.js"></script>
+<script src="pages.js"></script>
+<script src="app.js"></script>
+<script type="text/babel" src="tweaks-mount.jsx"></script>
+
+</body>
+</html>
