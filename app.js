@@ -59,8 +59,8 @@
             <span class="cc-num">VI</span>
             <div class="cc-front-body">
               <span class="cc-tag">And more…</span>
-              <p class="cc-q">Propose your own line of enquiry — a theme that crosses Romanticism and the machine.</p>
-              <span class="cc-more-cta">Call for Submission &rarr;</span>
+              <p class="cc-q">Propose your own line of enquiry that interrogates the relationship between humans and machines...</p>
+              <span class="cc-more-cta">Call for Submissions &rarr;</span>
             </div>
           </div>
         </div>

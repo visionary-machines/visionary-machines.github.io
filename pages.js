@@ -36,6 +36,7 @@
       </div>
       <p>If a team wins, the prize will be delivered to the team representative to be shared among members.</p>
       <p>All selected exhibiting participants receive an official Certificate of Participation.</p>
+      <p>Prizes will be distributed as Eslite gift cards.</p>
 
       <h2>Accepted Mediums &amp; Formats</h2>
       <div class="m-grid">
@@ -108,7 +109,7 @@
 
       <h2>Path to Exhibition</h2>
       <p>This workshop is the launchpad for the <em>Visionary Machines</em> Exhibition (August 2026). All attendees are invited to refine their prototypes into finished works and submit them to the main exhibition.</p>
-      <p>Final exhibition selections are eligible for <strong>Student Award: HK$1,500 / Open Award: HK$2,000</strong> and an official Certificate of Participation.</p>
+      <p>Final exhibition selections are eligible for <strong>Student Award: HK$1,500 / Open Award: HK$2,000 </strong> (Eslite Gift Cards) and an official Certificate of Participation.</p>
 
       <h2>Eligibility &amp; How to Apply</h2>
       <p>Open to the HKU community and the wider public. No prior coding or art experience required. Registrants will receive a follow-up email with instructions on what to bring (e.g. laptop, tablet).</p>
@@ -143,7 +144,7 @@
         <div class="pg-hd-bg" style="background-image:linear-gradient(rgba(26,23,20,0.85),rgba(26,23,20,0.85)),url('${I.mary_shelley}')"></div>
         <p class="pg-hd-lbl">Perspectives</p>
         <h1>Theme<br><span class="acc">Essays</span></h1>
-        <p class="pg-hd-sub">Five long-form posts on the keywords underlying the exhibition.</p>
+        <p class="pg-hd-sub">Student blog posts reflecting on the keywords underlying the exhibition.</p>
       </div>
       <div class="blog-index">
         <div class="blog-grid">${cards}</div>
@@ -220,12 +221,12 @@
       <div class="gal-hd-bg"></div>
       <p style="font-family:'Barlow Condensed',sans-serif;font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:var(--mid);margin-bottom:.85rem">Visionary Machines</p>
       <h1>Exhibition<br><span class="acc">Gallery</span></h1>
-      <p>Event photographs and selected works will appear here after the Exhibition Opening, 22 August 2026.</p>
+      <p>Event photographs and selected works will appear here after the Exhibition Opening, 27 August 2026.</p>
     </div>
 
     <div class="gal-notice">
       <span class="dot"></span>
-      <p>This section will be updated after the Opening Ceremony on <strong style="color:rgba(237,232,222,.7)">22 August 2026</strong>. Follow us on social media for live updates. &nbsp;[INSERT SOCIAL HANDLE]</p>
+      <p>This section will be updated after the Opening Ceremony on <strong style="color:rgba(237,232,222,.7)">27 August 2026</strong>. Follow us on Instagram for live updates. &nbsp;@visionarymachines2026</p>
     </div>
 
     <div class="gal-tabs">

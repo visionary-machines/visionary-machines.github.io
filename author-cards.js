@@ -10,7 +10,7 @@
 
   window.VM_DATA.AUTHOR_CARDS = [
     { slug: 'darwin',    name: 'Erasmus Darwin',        dates: '1731–1802', work: 'The Botanic Garden',                 year: '1791' },
-    { slug: 'coleridge', name: 'Samuel Taylor Coleridge', dates: '1772–1834', work: 'Poems on Various Subjects',         year: '1796' },
+    { slug: 'coleridge', name: 'Samuel Taylor Coleridge', dates: '1772–1834', work: "'The Eolian Harp'",         year: '1796' },
     { slug: 'blake',     name: 'William Blake',          dates: '1757–1827', work: 'Milton · ‘London’ · ‘The Tyger’',    year: '1794–1820' },
     { slug: 'wordsworth', name: 'William Wordsworth',    dates: '1770–1850', work: 'The Excursion',                      year: '1814' },
     { slug: 'keats',     name: 'John Keats',             dates: '1795–1821', work: 'Letter to John Taylor',              year: '1818' },

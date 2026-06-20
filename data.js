@@ -379,7 +379,7 @@
         sub: 'Why 19th-Century Visions Still Shape Our Digital Future?',
         img: 'spinning_jenny', accent: 'g', live: true,
         body: `
-        <p>Think about the last time a piece of technology moved you. Not impressed, moved.</p>
+        <p>Think about the last time a piece of technology moved you.</p>
         <p>Maybe it was a video that made a dead person seem impossibly alive. Maybe it was a virtual space that felt as real as the room you were sitting in. Whatever it was, you probably didn’t think this was exactly what the Romantics were talking about. But it was.</p>
         <p>Two hundred years ago, Europe was experiencing its own technological revolution. Factories, machines, industrialisation, suddenly, the world was becoming faster, more mechanical, and increasingly dominated by machines rather than our hands. Against the cold efficiency of the Industrial Revolution, Romantic writers made a radical argument that imagination, feeling, and subjective experience were the most important things about being human, and any world that forgot them would lose something it couldn’t get back.</p>
         <p>Now, standing inside another technological revolution driven by newly developing technologies, AI, and digital media, we are asking almost the exact same questions again.</p>
@@ -395,7 +395,7 @@
 
         <p>The same thing happens in the Getty Museum’s augmented reality <em>William Blake</em> exhibition (Getty Museum &amp; Tin&amp;Ed, 2022). The Getty collaborated with Australian art duo Tin&amp;Ed to transform Blake’s supernatural imagery into AR experiences using motion capture and 3D modelling technology. Through a smartphone screen, Blake’s serpents and visionary creatures appear life-sized inside the viewer’s physical environment.</p>
         <p>You are suddenly sharing a room with Blake’s imagination.</p>
-        <p>And honestly? Blake probably would have loved this. He believes that imagination is another way of seeing reality, which makes AR desirable. We build AR, a technology that layers invisible digital worlds onto physical space, because we already believe, at some level, that reality is richer than what we can see with unaided eyes.</p>
+        <p>Blake probably would have loved this. He believes that imagination is another way of seeing reality, which makes AR desirable. We build AR, a technology that layers invisible digital worlds onto physical space, because we already believe, at some level, that reality is richer than what we can see with unaided eyes.</p>
         <p>Romanticism offers such a belief to us who are from two centuries later.</p>
 
         <p>Maybe that is the strangest thing about modern technology. The more advanced it becomes, the more it seems driven by human desires. People still want emotional connection and imaginative experience, even in the digital era.</p>
