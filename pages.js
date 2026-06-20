@@ -119,8 +119,9 @@
         <p class="ws-cta-txt">Ready to build something sublime?</p>
         <span class="ws-cta-sub">Registration deadline: 11 July 2026 &middot; Max 50 places</span>
       </div>
-      <button class="btn btn-accent" onclick="alert('Registration link coming soon!')">Register Now →</button>
-    </div>
+      <button class="btn btn-paper" onclick="openRegForm()">Register Now →</button>
+
+      </div>
   `;
 
   // ─── BLOG (index + featured post) ───────────────────────────
