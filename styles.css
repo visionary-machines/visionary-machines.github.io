@@ -1935,18 +1935,43 @@ body.reader-open { overflow: hidden; }
   .flip-grid { grid-template-columns: 1fr; }
   .flip { height: 440px; }
 }
-.about-image-container {
+/* Container for both posters */
+.posters-container {
+  display: flex;
+  flex-direction: column; /* Stacked on mobile by default */
+  gap: 1.5rem;
   width: 100%;
-  max-width: 800px; /* Adjust maximum width as you like */
-  margin: 2rem auto; /* Centers the image and adds space above/below */
-  border-radius: 8px; /* Optional: rounds the corners slightly */
-  overflow: hidden;
+  max-width: 1000px;
+  margin: 2.5rem auto; /* Centers the group and adds space */
+  padding: 0 1rem;
 }
 
+/* Individual poster container */
+.about-image-container {
+  flex: 1;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* The actual poster images */
 .about-img {
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
+/* Optional hover effect */
+.about-img:hover {
+  transform: scale(1.02);
+}
+
+/* Desktop and Tablet layout (Screens wider than 768px) */
+@media (min-width: 768px) {
+  .posters-container {
+    flex-direction: row; /* Side-by-side on desktop */
+    justify-content: center;
+    align-items: stretch;
+  }
+}
