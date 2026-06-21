@@ -1935,3 +1935,18 @@ body.reader-open { overflow: hidden; }
   .flip-grid { grid-template-columns: 1fr; }
   .flip { height: 440px; }
 }
+.about-image-container {
+  width: 100%;
+  max-width: 800px; /* Adjust maximum width as you like */
+  margin: 2rem auto; /* Centers the image and adds space above/below */
+  border-radius: 8px; /* Optional: rounds the corners slightly */
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
